@@ -5,6 +5,7 @@ In each folder, follow each program in the order that it comes in below.
 Beginners/:
     minecraft.py, 
     setblocks.py, 
-    randomblock.py
+    randomblock.py, 
+    blowup.py
 
 This Git page is not supported by Mojang AB or the Raspberry Pi Foundation.
