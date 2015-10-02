@@ -6,4 +6,5 @@ id = 1
 #Finds your XYZ Position
 x, y, z = mc.player.getPos()
 #Places a block at your XYZ Position
+#XYZ is the block under your feet
 mc.setBlock(x, y, z, id)
