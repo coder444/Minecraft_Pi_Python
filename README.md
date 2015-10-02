@@ -8,7 +8,7 @@ Beginners/:
     randomblock.py, 
     blowup.py
 Intermediate/:
-    pressureplates.py
+    pressureplates.py, 
     sneakdetector.py
 
 This Git page is not supported by Mojang AB or the Raspberry Pi Foundation.
