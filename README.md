@@ -9,5 +9,6 @@ Beginners/:
     blowup.py
 Intermediate/:
     pressureplates.py
+    sneakdetector.py
 
 This Git page is not supported by Mojang AB or the Raspberry Pi Foundation.
