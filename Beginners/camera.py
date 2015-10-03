@@ -1,4 +1,5 @@
 from mcpi import minecraft
+#Import the Sleep library
 from time import sleep
 mc = minecraft.Minecraft.create()
 
