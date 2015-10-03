@@ -10,6 +10,7 @@ i = 10
 while i > 0:
   mc.postToChat(i)
   sleep(1)
+  i -= 1
 mc.postToChat('Your camera has been set NORMAL!')
 #Reset the camera
 mc.camera.setNormal()
