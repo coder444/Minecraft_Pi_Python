@@ -7,10 +7,10 @@ Help for people who want to know how to use the Minecraft Pi API for Python. Com
 In each folder, follow each program in the order that it comes in below.
 Beginners/:
     minecraft.py,
-    camera.py, 
     setblocks.py, 
     randomblock.py, 
-    blowup.py
+    blowup.py, 
+    camera.py
 Intermediate/:
     pressureplates.py, 
     sneakdetector.py
