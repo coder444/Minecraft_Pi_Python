@@ -4,7 +4,7 @@ mc = minecraft.Minecraft.create()
 x, y, z = mc.player.getPos()
 mc.setBlock(x, y, z, 35)
 #95 is Invisible Bedrock, only avaliable in early versions of PE and Pi
-mc.setBlock(x, y, z, 95)
+mc.setBlock(x, y - 1, z, 95)
 mc.postToChat('Sneak on this block to detect.')
 
 while True:
