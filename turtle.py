@@ -13,6 +13,6 @@ while True:
             mc.setBlock(x, y, z, 0)
             mc.setBlock(x, y + 1, z, 0)
             x += 1
-            mc.setBlocks(x, y, z, x + 5, y + 5, z + 3, 0)
+            mc.setBlocks(x, y, z, x + 5, y + 5, z + 3, 95)
             x += 1
             sleep(0.5)
