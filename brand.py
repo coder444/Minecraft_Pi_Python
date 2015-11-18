@@ -4,8 +4,10 @@ mc = minecraft.Minecraft.create()
 rainbows = [
     x for x in range(0, 15)
     ]
-x, y, z = mc.player.getPos()
 while True:
-    for rainbow in rainbows:
-        mc.setBlock(x + 1, y, z, 35, rainbow)
-        sleep(0.1)
+    e = mc.events.pollBlockHits()
+    for ev in e:
+        while True:
+            for rainbow in rainbows:
+                mc.setBlock(ev.pos, 35, rainbow)
+                sleep(0.1)
